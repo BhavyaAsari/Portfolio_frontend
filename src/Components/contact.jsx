@@ -25,7 +25,7 @@ export const Contact = () => {
     e.preventDefault();
     setButtonText("Sending...");
 
-    let response = await fetch("/api/contact", {
+    let response = await fetch("/contact", {
       method: "POST",
       headers: { "Content-Type": "application/json" },
       body: JSON.stringify(formDetails),

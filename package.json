@@ -3,20 +3,21 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-    "homepage":"https://github.com/BhavyaAsari/Portfolio_frontend.git",
+  "homepage": "https://github.com/BhavyaAsari/Portfolio_frontend.git",
   "scripts": {
-  
     "dev": "vite",
     "build": "vite build",
     "lint": "eslint .",
     "preview": "vite preview",
-     "start": "react-scripts start",
-  "predeploy": "npm run build",
-  "deploy": "gh-pages -d build"
+    "start": "react-scripts start",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
   },
   "dependencies": {
+    "@emailjs/browser": "^4.4.1",
     "@tailwindcss/vite": "^4.1.16",
     "cors": "^2.8.5",
+    "emailjs-com": "^3.2.0",
     "express": "^5.1.0",
     "nodemailer": "^7.0.10",
     "react": "^19.1.1",
