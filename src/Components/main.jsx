@@ -6,6 +6,7 @@ import Footer from "./footer";
 import Skills from "./skills";
 import { Contact } from "./contact";
 import Purple from "../assets/purple.png"
+import Education from "./Education";
 const main = () => {
 
     const [ showContact,setShowContact] = useState(false);
@@ -29,6 +30,7 @@ const main = () => {
         )}
         <Projects/>
         <Skills/>
+        <Education/>
 
         
         <Footer/>

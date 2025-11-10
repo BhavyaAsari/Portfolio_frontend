@@ -19,18 +19,66 @@ export default function Projects() {
             <div className="md:flex">
               <div className="p-5">
                 <h2 className="text-purple-600 font-semibold text-xl">Anime Hub</h2>
-                <a href="#" className="text-purple-400 block text-sm mb-2">
+                <a href="#" className="text-purple-400 block text-lg mb-2">
                   Blog + Chat Platform ~ Deployed
                 </a>
                 <p className="text-gray-600">
                   A platform where ideas meet admirers.
                 </p>
+                <a href="https://animehub-one.vercel.app/login.html" className="text-lg text-purple-500 " target="_blank"><em>Click here for demo</em></a>
               </div>
               <div className="p-5 flex items-center justify-center">
                 <img
                   src={AnimeHub}
                   alt="Anime Hub"
-                  className="w-32 h-auto rounded-md"
+                  className="w-52 h-auto rounded-md"
+                />
+              </div>
+            </div>
+          </div>
+
+             {/* AnimeHub */}
+          <div className="max-w-md mx-auto bg-white rounded-xl shadow-md overflow-hidden hover:animate-pulse transition-transform transform hover:scale-105">
+            <div className="md:flex">
+              <div className="p-5">
+                <h2 className="text-purple-600 font-semibold text-xl"> My Portfolio</h2>
+                <a href="#" className="text-purple-400 block text-lg mb-2">
+                  React.js + TailwindCss ~ Deployed
+                </a>
+                <p className="text-gray-600">
+                  A platform where i've displayed mySelf .
+                </p>
+                <a href="portfolio-frontend-cyan-kappa.vercel.app" className="text-lg text-purple-500 " target="_blank"><em>Click here for demo</em></a>
+              </div>
+              <div className="p-5 flex items-center justify-center">
+                <img
+                  src={AnimeHub}
+                  alt="Anime Hub"
+                  className="w-52 h-auto rounded-md"
+                />
+              </div>
+            </div>
+          </div>
+
+
+             {/* AnimeHub */}
+          <div className="max-w-md mx-auto bg-white rounded-xl shadow-md overflow-hidden hover:animate-pulse transition-transform transform hover:scale-105">
+            <div className="md:flex">
+              <div className="p-5">
+                <h2 className="text-purple-600 font-semibold text-xl"> Vynx AI Assistant</h2>
+                <a href="#" className="text-purple-400 block text-lg mb-2">
+                  React.js + OpenRouter AI Model ~ Deployed
+                </a>
+                <p className="text-gray-600">
+                  Created ai assisatant for small scale queries .
+                </p>
+                <a href="https://vynx-rho.vercel.app/" className="text-lg text-purple-500 " target="_blank"><em>Click here for demo</em></a>
+              </div>
+              <div className="p-5 flex items-center justify-center">
+                <img
+                  src={AnimeHub}
+                  alt="Anime Hub"
+                  className="w-52 h-auto rounded-md"
                 />
               </div>
             </div>
@@ -43,7 +91,7 @@ export default function Projects() {
                 <h2 className="text-purple-600 font-semibold text-xl">
                   AI Resume Analyzer
                 </h2>
-                <a href="#" className="text-purple-400 block text-sm mb-2">
+                <a href="#" className="text-purple-400 block text-lg mb-2">
                   AI Career Insights
                 </a>
                 <p className="text-gray-600">
@@ -54,11 +102,13 @@ export default function Projects() {
                 <img
                   src={ResumeAnalyzer}
                   alt="Resume Analyzer"
-                  className="w-32 h-auto rounded-md"
+                  className="w-78 h-auto rounded-md"
                 />
               </div>
             </div>
           </div>
+
+
 
           {/* Velvet Screen */}
           <div className="max-w-md mx-auto bg-white rounded-xl shadow-md overflow-hidden hover:animate-pulse transition-transform transform hover:scale-105">
@@ -67,7 +117,7 @@ export default function Projects() {
                 <h2 className="text-purple-600 font-semibold text-xl">
                   Velvet Screen
                 </h2>
-                <a href="#" className="text-purple-400 block text-sm mb-2">
+                <a href="#" className="text-purple-400 block text-lg mb-2">
                   OTP-based Booking
                 </a>
                 <p className="text-gray-600">
@@ -78,7 +128,7 @@ export default function Projects() {
                 <img
                   src={VelvetScreen}
                   alt="Velvet Screen"
-                  className="w-32 h-auto rounded-md"
+                  className="w-78 h-auto rounded-md"
                 />
               </div>
             </div>

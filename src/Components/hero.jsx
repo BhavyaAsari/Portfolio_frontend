@@ -10,11 +10,10 @@ const Hero = ({onShowContact}) => {
         {/* Left Text Section */}
         <div className="lg:w-1/3 text-center lg:text-left mb-10 lg:mb-0">
           <p className="text-5xl mb-3 text-slate-300">I'm</p>
-          <h1 className="text-7xl font-bold mb-2">Bhavya Asari</h1>
+          <h1 className=" flex text-7xl font-bold mb-2">Bhavya <p className="ml-2 text-black">Asari</p></h1>
           <hr className="border-purple-400 w-24 mx-auto lg:mx-0 mb-6" />
-          <p className="text-slate-15000 leading-relaxed text-xl">
-            <em><strong>A final-year student pursuing  Bachelor's degree of engineering in  Information & Technology and  looking an opportunity to step into the vast world of the corporate as web developer.
-</strong></em>
+          <p className=" text-slate-15000 leading-relaxed text-4xl mr-2">
+            <em><strong className="flex">Web <developer className="ml-2 text-purple-500"> Developer</developer></strong></em>
           </p>
         </div>
 
