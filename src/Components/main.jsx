@@ -14,7 +14,7 @@ const main = () => {
     return (
 
    <div
-  className="min-h-screen p-10 bg-cover bg-center bg-no-repeat"
+  className="min-h-screen p-10 bg-cover bg-center bg-no-repeat flex flex-col justify-center items-center text-center px-4"
   style={{ backgroundImage: `url(${Purple})` }}
 >
 

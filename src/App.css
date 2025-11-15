@@ -25,3 +25,9 @@
 html {
   scroll-behavior: smooth;
 }
+
+.rtl-typing {
+
+  direction:rtl;
+  unicode-bidi: plaintext;
+}

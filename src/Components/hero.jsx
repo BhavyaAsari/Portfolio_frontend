@@ -25,11 +25,7 @@ const Hero = ({onShowContact}) => {
     />
   
     </h1>
-
-        </p>
-      
-
-      
+  </p>
           <hr className="border-purple-400 w-24 mx-auto lg:mx-0 mb-6" />
           <p className=" text-slate-15000 leading-relaxed text-4xl mr-2">
             <em><strong className="flex">Web <developer className="ml-2 text-purple-500"> Developer</developer></strong></em>
