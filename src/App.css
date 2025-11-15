@@ -35,4 +35,5 @@ html {
 html, body {
   overscroll-behavior: none;
   background: #000; /* fallback when bouncing */
+    overflow-x: hidden;
 }
