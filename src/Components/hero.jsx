@@ -1,6 +1,7 @@
 import { BsInstagram, BsLaptop, BsGithub } from "react-icons/bs";
 import Heroimg from "../assets/portfoil.jpg";
 import Mee from "../assets/mee.jpg"
+import {TypeAnimation} from 'react-type-animation';
 
 const Hero = ({onShowContact}) => {
   return (
@@ -9,8 +10,26 @@ const Hero = ({onShowContact}) => {
         
         {/* Left Text Section */}
         <div className="lg:w-1/3 text-center lg:text-left mb-10 lg:mb-0">
-          <p className="text-5xl mb-3 text-slate-300">I'm</p>
-          <h1 className=" flex text-7xl font-bold mb-2">Bhavya <p className="ml-2 text-black">Asari</p></h1>
+        <p className="text-6xl mb-3 text-black">
+            I'm
+
+    <h1 className="flex text-7xl font-bold mt-2 text-white" >
+
+      <TypeAnimation
+
+        sequence={["Bhavya Asari",1500,"",500]}
+        wrapper="span"
+        speed={50}
+        deletionSpeed={30}
+        repeat={Infinity}
+    />
+  
+    </h1>
+
+        </p>
+      
+
+      
           <hr className="border-purple-400 w-24 mx-auto lg:mx-0 mb-6" />
           <p className=" text-slate-15000 leading-relaxed text-4xl mr-2">
             <em><strong className="flex">Web <developer className="ml-2 text-purple-500"> Developer</developer></strong></em>
