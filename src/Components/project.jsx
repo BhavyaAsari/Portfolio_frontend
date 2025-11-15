@@ -7,7 +7,7 @@ export default function Projects() {
     <>
       <div className=" m-10 max-w-full p-6" id="projects">
         <div className="grid justify-items-center m-10">
-          <h1 className="text-6xl text-white font-bold tracking-wide mt-10 p-7">
+          <h1 className="text-6xl text-white font-bold tracking-wide mt-10 p-7 text-center">
             Projects
           </h1>
         </div>
