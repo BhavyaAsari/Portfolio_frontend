@@ -31,3 +31,8 @@ html {
   direction:rtl;
   unicode-bidi: plaintext;
 }
+
+html, body {
+  overscroll-behavior: none;
+  background: #000; /* fallback when bouncing */
+}
