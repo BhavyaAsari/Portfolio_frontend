@@ -1,10 +1,10 @@
 import React, { useState } from "react";
-import NavBar from "./navbar";
-import Hero from "./Hero";
-import Projects from "./project";
-import Footer from "./footer";
-import Skills from "./skills";
-import { Contact } from "./contact";
+import NavBar from "./temp_nav";
+import Hero from "./temp_hero";
+import Projects from "./temp_project";
+import Footer from "./Foote_tempr";
+import Skills from "./Skills_temp";
+import { Contact } from "./temp_contach";
 import Purple from "../assets/purple.png"
 import Education from "./Education";
 import AnimatedCursor from "./AnimatedCursor";
