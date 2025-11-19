@@ -7,7 +7,6 @@ import Skills from "./skills";
 import { Contact } from "./contact";
 import Purple from "../assets/purple.png"
 import Education from "./Education";
-import CursorFollower from "./AnimatedCursor";
 import AnimatedCursor from "./AnimatedCursor";
 const Main = () => {
 
