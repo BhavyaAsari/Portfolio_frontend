@@ -51,10 +51,10 @@ function Education() {
   return (
     <div className="py-16 px-4 sm:px-8" id="education">
       {/* Heading */}
-      <h2 className="text-5xl font-bold text-center text-black mt-2 mb-4">
+      <h2 className="text-7xl font-bold text-center text-black mt-2 mb-4">
         Academics
       </h2>
-      <p className="text-center text-gray-300 text-xl mb-12">
+      <p className="text-center text-white text-4xl mb-12">
         <em>My educational <b className="text-black">advancement</b>  throughout the years.</em>
       </p>
 
@@ -83,15 +83,15 @@ function Education() {
               {!alignRight && (
                 <div className="flex justify-end mr-2">
                   <div className="p-5 md:p-6 border border-black rounded-2xl transition-all max-w-md">
-                    <h3 className="text-base sm:text-2xl md:text-2xl font-semibold text-white">
+                    <h3 className="text-base sm:text-2xl md:text-5xl font-semibold text-white">
                       {e.title}
                     </h3>
-                    <p className="text-lg text-gray-400">{e.degree}</p>
-                    <p className="text-lg text-white">{e.duration}</p>
-                    <p className="text-xl text-black">
+                    <p className="text-2xl text-gray-200">{e.degree}</p>
+                    <p className="text-2xl text-white">{e.duration}</p>
+                    <p className="text-2xl text-purple-100">
                       <strong>Grade:</strong> {e.grade}
                     </p>
-                    <p className="text-sm-3 text-gray-300">{e.details}</p>
+                    <p className="text-sm-3 text-purple-100 text-2xl">{e.details}</p>
                   </div>
                 </div>
               )}
@@ -120,15 +120,15 @@ function Education() {
               {alignRight && (
                 <div className="flex justify-start ml-3">
                   <div className="p-5 md:p-6 border border-black rounded-2xl transition-all max-w-md">
-                    <h3 className="text-base sm:text-2xl md:text-2xl font-semibold text-black">
+                    <h3 className="text-base sm:text-2xl md:text-5xl font-semibold text-white  ">
                       {e.title}
                     </h3>
-                    <p className="text-lg text-white">{e.degree}</p>
-                    <p className="text-lg text-gray-300">{e.duration}</p>
-                    <p className="text-lg text-gray-300">
+                    <p className="text-2xl text-white">{e.degree}</p>
+                    <p className="text-2xl text-purple-100">{e.duration}</p>
+                    <p className="text-2xl text-purple-100">
                       <strong>Grade:</strong> {e.grade}
                     </p>
-                    <p className="text-sm-3 text-gray-200">{e.details}</p>
+                    <p className="text-sm-3 text-purple-100 text-2xl">{e.details}</p>
                   </div>
                 </div>
               )}

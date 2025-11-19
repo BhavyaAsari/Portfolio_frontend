@@ -25,7 +25,7 @@ export default function Skills() {
     <section className="" id="skills">
       <div className="text-center mb-10">
         <h2 className="text-6xl font-bold text-slate-1500">My Skills</h2>
-        <p className="text-white text-2xl mt-2">
+        <p className="text-white text-4xl mt-2">
          <em> A glance at the technologies I've worked with.</em>
         </p>
       </div>

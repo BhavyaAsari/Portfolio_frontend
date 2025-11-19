@@ -4,6 +4,9 @@ import Mee from "../assets/mee.jpg"
 import {TypeAnimation} from 'react-type-animation';
 
 const Hero = ({onShowContact}) => {
+
+  console.log("HERO FILE I AM EDITING");
+
   return (
     <>
       <section className="flex flex-col lg:flex-row justify-around items-center px-10 py-16 text-white ">
@@ -43,10 +46,10 @@ const Hero = ({onShowContact}) => {
         {/* Right Section */}
         <div className="lg:w-1/3 text-center lg:text-left mt-10 lg:mt-0">
           <p className=" text-black text-5xl  mb-3">About Me</p>
-          <p className="text-white font-bold text-xl mb-4 ">
+          <p className="text-white font-bold text-2xl mb-4 ">
             <strong><em>"I’m a disciplined learner who enjoys turning challenges into growth. With a calm mindset, a strong learning attitude, and a passion for building real-world projects, I bring clarity, creativity, and consistency to every task. I thrive in environments where curiosity, teamwork, and continuous improvement matter." </em></strong></p>
 
-          <button className="bg-white text-purple-700 font-semibold px-8 py-2 rounded-full hover:bg-purple-800 hover:text-white transition-all duration-300 hover:cursor-pointer"
+          <button className="bg-white text-2xl text-purple-700 font-semibold px-8 py-2 rounded-full hover:bg-purple-800 hover:text-white transition-all duration-300 hover:cursor-pointer"
           onClick={onShowContact}>
             Show more...
           </button>

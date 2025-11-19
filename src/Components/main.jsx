@@ -1,13 +1,15 @@
 import React, { useState } from "react";
 import NavBar from "./navbar";
-import Hero from "./hero";
+import Hero from "./Hero";
 import Projects from "./project";
 import Footer from "./footer";
 import Skills from "./skills";
 import { Contact } from "./contact";
 import Purple from "../assets/purple.png"
 import Education from "./Education";
-const main = () => {
+import CursorFollower from "./AnimatedCursor";
+import AnimatedCursor from "./AnimatedCursor";
+const Main = () => {
 
     const [ showContact,setShowContact] = useState(false);
 
@@ -18,6 +20,7 @@ const main = () => {
   style={{ backgroundImage: `url(${Purple})` }}
 >
 
+        <AnimatedCursor/>
         <NavBar/>
         {/*  Pass the function to Hero */}
         <Hero onShowContact={() => setShowContact(true)}/>
@@ -39,4 +42,4 @@ const main = () => {
    
 } 
 
-export default main;
+export default Main;
